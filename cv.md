@@ -1,25 +1,38 @@
-![](https://github.com/Bazhok/rsschool-cv/blob/gh-pages/image/13.jpg) 
+![my foto](/image/13.jpg)  
+
 # **Volha Bazhok**
-## Project manager 
+## Project manager/Web-dev
 ### Work Experience
 -----
-|**Dates**|**Works**|
-| :-: | :-:|
-|2010-2021| Project manager for PHILIPS PROJECT at Ancor marketing |
-|2006-2010| Domestic applainces shop assistant for PHILIPS |
+*2010-2021*  
+Project manager for PHILIPS PROJECT at Ancor marketing  
+
+*2006-2010*  
+Domestic applainces shop assistant for PHILIPS PROJECT
+
 -----
 ### **Education** 
 * Web development bootcamp at Udemy
-
 * Courses at PHILIPS: Sales, management, negotiations
+* Streamline language school: from A2 to C2 
+* Belarussian literature&language Teacher, Belarussian state university, 2005-2010  
 
-* Belarussian literature&language Teacher, Belarussian state university, 2005-2010
 ### **Skills**
-|HTML5|*****|
-| :- | :- |
-|CSS|*****|
-|JAVA SCRIPT|***|
-### ***Contact***
-+375.........
+* Project management *********  
 
-e-mail: example@gmail.com
+* ENGLISH Advanced  
+
+* Sales *********  
+
+* HTML *****  
+
+* CSS *****  
+
+* JAVA SCRIPT ***  
+
+### **Contact**
+1. +375.........
+
+1. e-mail: <volha.bazhok@gmail.com>
+
+1. GitHub: Bazhok
