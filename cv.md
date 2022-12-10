@@ -1,7 +1,7 @@
-![Header](https://github.com/Bazhok/rsschool-cv/blob/gh-pages/image/13.jpg)
+![](https://github.com/Bazhok/rsschool-cv/blob/gh-pages/image/13.jpg) 
 # **Volha Bazhok**
 ## Project manager 
-### **Work Experience**
+### Work Experience
 -----
 |**Dates**|**Works**|
 | :-: | :-:|
