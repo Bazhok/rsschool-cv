@@ -1,4 +1,4 @@
-![my foto](/image/13.jpg)  
+![my-foto](./assets/img/my-photo.png)   
 
 # **Volha Bazhok**
 ## Project manager/Web-dev
