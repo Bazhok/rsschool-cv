@@ -68,3 +68,13 @@ ul {
   color: #eaf6f6;
   text-decoration: underline;
 }
+.my-photo {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  transition: 1s;
+}
+.my-photo:hover {
+  z-index: 10; /*Поверх других изображений*/
+  transform: scale(1.2); /*масштабирование на 20%*/
+}
