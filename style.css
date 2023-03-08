@@ -121,3 +121,13 @@ ul {
   margin: 10px 20px;
   text-decoration: none;
 }
+
+.footer-link:hover {
+  color: #eaf6f6;
+  text-decoration: none;
+}
+
+.rs-logo {
+  width: 60px;
+  height: 20px;
+}
