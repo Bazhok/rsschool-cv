@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #40514e;
+}
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 400%;
+  color: #66bfbf;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #40514e;
+}
+h3 {
+  font-family: "Monrserat", sans-serif;
+  font-weight: normal;
+  font-weight: bold;
+  color: #40514e;
+}
+
+p {
+  line-height: 2;
+}
+
+ul {
+  list-style: square;
+  color: #66bfbf;
+}
+
+.header {
+  background-color: #98ddca;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+.nav-link {
+  padding: 0 40px;
+  line-height: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+  color: #11999e;
+}
+.nav-link:hover {
+  color: #eaf6f6;
+  text-decoration: underline;
+}
+.my-photo {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  transition: 1s;
+}
+.my-photo:hover {
+  z-index: 10; /*Поверх других изображений*/
+  transform: scale(1.2); /*масштабирование на 20%*/
+}
+
+.web {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #66bfbf;
+}
+.code-example {
+  font-size: 20px;
+}
+.project-link {
+  color: #11999e;
+  text-decoration: underline;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn {
+  position: relative;
+  padding: 10px 20px 10px 20px;
+  margin: 10px 0;
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  color: #ffffff;
+  background: #11cdd4;
+  text-decoration: none;
+  box-shadow: 5px 5px 0 #000;
+  transition: 1s; /*Время анимации кнопки при наведении*/
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  left: 5px;
+  right: 5px;
+  box-shadow: 0 0 0 #000; /*Параметры тени*/
+}
+
+.footer {
+  background-color: #66bfbf;
+  line-height: 30px;
+  padding-top: 15px;
+  text-align: center;
+}
+.footer-link {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #eaf6f6;
+  text-decoration: none;
+}
+
+.rs-logo {
+  width: 60px;
+  height: 20px;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
